@@ -1,0 +1,6 @@
+.cd-fake_dropdown {width: 300px; }
+.cd-fake_dropdown .cdDescr {width: 280px; padding: 3px 15px 3px 5px; cursor: pointer; background: #F6F4F2 url(arrow.gif) no-repeat right; border: 1px solid #BDC7D8; display: block; overflow: auto;}
+.cd-fake_dropdown ul {width: 300px; max-height: 300px; border: 1px solid #D5D1CE; overflow: auto; position: absolute; z-index: 10000; background: #F6F4F2; cursor: pointer; box-shadow: 0 1px 5px #D5D1CE;}
+.cd-fake_dropdown li {padding: 5px; border-bottom: 1px solid #D5D1CE; overflow: auto}
+.cd-fake_dropdown li:last-child {border-bottom: none}
+.cd-fake_dropdown ul li:hover, .cd-fake_dropdown .selected {background: #3399FF}
